@@ -1,0 +1,244 @@
+:root{
+    --primary-text-color:#757575;
+    --accent-color:#2196F3;
+    --secondary-text-color:#212121;
+    --primary-white-color:#FFFFFF;
+    --primary-bg-color:#F5F5F5;
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+.page{
+    color:var(--primary-text-color);
+    background-color:var(--primary-bg-color);
+
+    font-family: Roboto, sans-serif;
+}
+
+/* header */
+
+.header{
+    background-color: var(--primary-white-color);
+}
+
+/* logo */
+
+.logo-header{
+    color: #000000;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-footer{
+    color: #FFFFFF;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-header .accent,
+.logo-footer .accent{
+    color: var(--accent-color);
+}
+
+/* site-nav */
+
+.site-nav .link{
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link:hover, .site-nav .link:focus{
+    color: var(--accent-color);
+}
+
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+/* contacts*/
+
+.contacts .link{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.contacts .link:hover, .contacts .link:focus{
+    color: var(--accent-color);
+}
+/* hero */
+
+.hero{
+    background-color:#2F303A;
+}
+.hero-title{
+    color:var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+/* button */
+/* button portfolio */
+
+.button{
+color: var(--primary-white-color);
+background-color: var(--accent-color);
+cursor: pointer;
+}
+
+.button.primary{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.8;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+}
+
+.button.secondary {
+color: var(--secondary-text-color);
+background-color: #F5F4FA;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.button.secondary:hover, .button.secondary:focus{
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+
+/* feature */
+.feature-list .title{
+    color:var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.feature-list .text{
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+/* whatWeDo */
+
+.section-title {
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* ourTeam */
+
+.team{
+    background-color:#F5F4FA;
+}
+
+.team-list .title{
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+.team-list .text{
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+/* adress */
+
+.footer{
+    background-color:#2F303A;
+}
+
+.adress .link{
+    color: var(--primary-white-color);
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.adress .link:hover, .link:focus{
+    color: var(--accent-color);
+}
+
+.adress .accent{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.adress .accent:hover, address .accent:focus{
+    color: var(--accent-color);
+}
+
+/* portfolio */
+
+.portfolio-list .link{
+    text-decoration: none;
+}
+
+.portfolio-list .title{
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-list .text{
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+}
+
+
+/* основний колір тексту #757575 */
+
+/* другорядний колір тексту #212121*/
+
+/* білий колір #FFFFFF */
+
+/* колір адреси rgba (255, 255, 255, 0,6) */
+
+/* колір акценту #2196F3 */
+
+/* другорядний колір фону (наша команда) #F5F4FA */
