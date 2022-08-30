@@ -15,7 +15,6 @@ ul{
 .page{
     color:var(--primary-text-color);
     background-color:var(--primary-bg-color);
-
     font-family: Roboto, sans-serif;
 }
 
@@ -135,8 +134,8 @@ letter-spacing: 0.03em;
 }
 
 
-/* feature */
-.feature-list .title{
+/* benefits */
+.benefits-subtitle{
     color:var(--secondary-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -145,15 +144,17 @@ letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.feature-list .text{
+.benefits-description{
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
 
-/* whatWeDo */
+/* Title h2 */
 
-.section-title {
+.services-title,
+.team-title,
+.benefits-title {
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -162,13 +163,13 @@ letter-spacing: 0.03em;
     letter-spacing: 0.03em;
 }
 
-/* ourTeam */
+/* Team */
 
 .team{
     background-color:#F5F4FA;
 }
 
-.team-list .title{
+.team-subtitle{
     color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -176,7 +177,7 @@ letter-spacing: 0.03em;
     letter-spacing: 0.03em;
 }
 
-.team-list .text{
+.team-description{
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
@@ -188,7 +189,7 @@ letter-spacing: 0.03em;
     background-color:#2F303A;
 }
 
-.adress .link{
+.address-list .link{
     color: var(--primary-white-color);
     font-size: 14px;
     font-style: normal;
@@ -197,15 +198,28 @@ letter-spacing: 0.03em;
     text-decoration: none;
 }
 
-.adress .link:hover, .link:focus{
+.address-list .link:hover, .link:focus{
     color: var(--accent-color);
 }
 
-.adress .accent{
-    color: rgba(255, 255, 255, 0.6);
+.address-list .link-2,
+.address-list .link-3{
+color: rgba(255, 255, 255, 0.6);
+font-size: 14px;
+font-style: normal;
+line-height: 1.7;
+letter-spacing: 0.03em;
+text-decoration: none;
 }
 
-.adress .accent:hover, address .accent:focus{
+
+.address-list .link-2:hover,
+.address-list .link-3:hover{
+    color: var(--accent-color);
+}
+
+.address-list .link-2:focus,
+.address-list .link-3:focus {
     color: var(--accent-color);
 }
 
@@ -215,7 +229,7 @@ letter-spacing: 0.03em;
     text-decoration: none;
 }
 
-.portfolio-list .title{
+.portfolio-subtitle{
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 18px;
@@ -223,7 +237,7 @@ letter-spacing: 0.03em;
     letter-spacing: 0.06em;
 }
 
-.portfolio-list .text{
+.portfolio-description{
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.8;
