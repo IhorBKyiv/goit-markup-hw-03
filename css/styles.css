@@ -1,3 +1,13 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
 :root{
     --primary-text-color:#757575;
     --accent-color:#2196F3;
@@ -18,10 +28,18 @@ ul{
     font-family: Roboto, sans-serif;
 }
 
+/* Container */
+
+.container{
+    width: 1200px;
+}
+
 /* header */
 
 .header{
     background-color: var(--primary-white-color);
+
+    outline: 2px solid tomato;
 }
 
 /* logo */
@@ -34,6 +52,8 @@ ul{
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
+
+    outline: 2px solid tomato;
 }
 
 .logo-footer{
@@ -44,6 +64,8 @@ ul{
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
+
+    outline: 2px solid tomato;
 }
 
 .logo-header .accent,
@@ -60,6 +82,8 @@ ul{
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+
+    outline: 2px solid tomato;
 }
 
 .site-nav .link:hover, .site-nav .link:focus{
@@ -79,6 +103,8 @@ ul{
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+
+    outline: 2px solid tomato;
 }
 
 .contacts .link:hover, .contacts .link:focus{
@@ -88,6 +114,8 @@ ul{
 
 .hero{
     background-color:#2F303A;
+
+    outline: 2px solid tomato;
 }
 .hero-title{
     color:var(--primary-white-color);
@@ -97,18 +125,15 @@ ul{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
+    outline: 2px solid tomato;
 }
 
-/* button */
-/* button portfolio */
+/* buttons */
 
-.button{
+.button-primary {
 color: var(--primary-white-color);
 background-color: var(--accent-color);
-cursor: pointer;
-}
-
-.button.primary{
 font-weight: 700;
 font-size: 16px;
 line-height: 1.8;
@@ -116,9 +141,13 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
+cursor: pointer;
+margin: 0 auto;
+
+outline: 2px solid tomato;
 }
 
-.button.secondary {
+.button-secondary {
 color: var(--secondary-text-color);
 background-color: #F5F4FA;
 font-weight: 500;
@@ -126,9 +155,12 @@ font-size: 16px;
 line-height: 1.6;
 text-align: center;
 letter-spacing: 0.03em;
+cursor: pointer;
+
+outline: 2px solid tomato;
 }
 
-.button.secondary:hover, .button.secondary:focus{
+.button-secondary:hover, .button-secondary:focus{
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 }
@@ -142,15 +174,19 @@ letter-spacing: 0.03em;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
+    outline: 2px solid tomato;
 }
 
 .benefits-description{
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+
+    outline: 2px solid tomato;
 }
 
-/* Title h2 */
+/* title h2 */
 
 .services-title,
 .team-title,
@@ -161,9 +197,11 @@ letter-spacing: 0.03em;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+
+    outline: 2px solid tomato;
 }
 
-/* Team */
+/* team */
 
 .team{
     background-color:#F5F4FA;
