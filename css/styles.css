@@ -459,6 +459,7 @@ text-decoration: none;
 }
 
 .portfolio-padding{
+    margin-top: 20px;
     flex-basis: calc((100% - 60px) /3);
     width: 370px;
     border-bottom: 1px solid #EEEEEE;
@@ -488,10 +489,6 @@ text-decoration: none;
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.03em;
-}
-
-.portfolio-img{
-    margin-bottom: 20px;
 }
 
 /* основний колір тексту #757575 */
